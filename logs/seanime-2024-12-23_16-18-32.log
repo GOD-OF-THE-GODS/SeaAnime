@@ -1,0 +1,138 @@
+2024-12-23 16:18:31 |INF| app > Seanime 2.5.1-Murasaki
+2024-12-23 16:18:31 |INF| app > OS: windows
+2024-12-23 16:18:31 |INF| app > Arch: amd64
+2024-12-23 16:18:31 |INF| app > Processor count: 4
+2024-12-23 16:18:31 |DBG| app > Initializing config
+2024-12-23 16:18:31 |INF| app > Data directory: C:\Users\USER\AppData\Roaming\Seanime
+2024-12-23 16:18:31 |INF| app > Working directory: E:\Seaanime\Seanime Desktop
+2024-12-23 16:18:31 |INF| app > Desktop sidecar mode enabled
+2024-12-23 16:18:31 |INF| db > Database instantiated name=seanime.db
+2024-12-23 16:18:31 |DBG| db > Local files retrieved
+2024-12-23 16:18:31 |INF| ws > Monitoring connection as desktop sidecar
+2024-12-23 16:18:31 |INF| local platform > Database instantiated name=local.db
+2024-12-23 16:18:31 |INF| continuity > Initialized manager
+2024-12-23 16:18:31 |DBG| manga downloader > Reading download directory
+2024-12-23 16:18:31 |TRC| ws > Sending message type=refreshed-manga-download-data
+2024-12-23 16:18:31 |DBG| app > Refreshing modules
+2024-12-23 16:18:31 |TRC| torrent repo > Setting settings
+2024-12-23 16:18:31 |INF| app > Logged in to qBittorrent
+2024-12-23 16:18:31 |INF| app > Refreshed modules
+2024-12-23 16:18:31 |DBG| manga > Initialized provider extension bank
+2024-12-23 16:18:31 |DBG| onlinestream > Initialized provider extension bank
+2024-12-23 16:18:31 |DBG| torrent repo > Initialized anime provider extension bank
+2024-12-23 16:18:31 |DBG| extensions > Loaded built-in manga provider extension id=comick
+2024-12-23 16:18:31 |DBG| torrent repo > Anime provider extension added
+2024-12-23 16:18:31 |DBG| extensions > Loaded built-in manga provider extension id=comick-multi
+2024-12-23 16:18:31 |DBG| extensions > Loaded built-in manga provider extension id=mangapill
+2024-12-23 16:18:31 |DBG| extensions > Loaded built-in manga provider extension id=mangasee
+2024-12-23 16:18:31 |DBG| extensions > Loaded built-in manga provider extension id=mangadex
+2024-12-23 16:18:31 |DBG| extensions > Loaded built-in manga provider extension id=manganato
+2024-12-23 16:18:31 |DBG| torrent repo > Anime provider extension added
+2024-12-23 16:18:31 |DBG| extensions > Loaded built-in onlinestream provider extension id=gogoanime
+2024-12-23 16:18:31 |TRC| extensions > Loading external online streaming provider id=animepahe language=typescript
+2024-12-23 16:18:31 |TRC| extensions > Creating javascript VM for external manga provider id=animepahe language=typescript
+2024-12-23 16:18:31 |DBG| torrent repo > Anime provider extension added
+2024-12-23 16:18:31 |DBG| extensions > Loaded built-in onlinestream provider extension id=animepahe
+2024-12-23 16:18:31 |DBG| extensions > Loaded built-in anime torrent provider extension id=nyaa
+2024-12-23 16:18:31 |DBG| extensions > Loaded built-in anime torrent provider extension id=nyaa-sukebei
+2024-12-23 16:18:31 |DBG| extensions > Loaded built-in anime torrent provider extension id=animetosho
+2024-12-23 16:18:31 |DBG| torrent repo > Anime provider extension added
+2024-12-23 16:18:31 |DBG| extensions > Loaded built-in anime torrent provider extension id=seadex
+2024-12-23 16:18:31 |TRC| extensions > Loading external extensions
+2024-12-23 16:18:31 |TRC| extensions > Killing Goja VMs
+2024-12-23 16:18:31 |DBG| extensions > Killed Goja VMs
+2024-12-23 16:18:31 |TRC| extensions > Unloading external extensions
+2024-12-23 16:18:31 |DBG| extensions > Unloaded external extensions
+2024-12-23 16:18:31 |DBG| extensions > Loaded external extensions
+2024-12-23 16:18:31 |TRC| ws > Sending message type=extensions-reloaded
+2024-12-23 16:18:31 |DBG| app > Fetching Anilist data
+2024-12-23 16:18:31 |INF| app > Authenticated to AniList as WagaNawaShadow
+2024-12-23 16:18:31 |DBG| anilist > Fetching anime collection username=WagaNawaShadow
+2024-12-23 16:18:31 |DBG| animetosho > Loaded Sneedex Nyaa IDs count=1349
+2024-12-23 16:18:32 |INF| anilist > Successful Request rlr=87 rtt=758ms
+2024-12-23 16:18:32 |DBG| anilist > Fetching manga collection
+2024-12-23 16:18:32 |INF| anilist > Successful Request rlr=86 rtt=589ms
+2024-12-23 16:18:32 |INF| app > Fetched Anilist data
+2024-12-23 16:18:32 |DBG| transcoder > Hardware acceleration: disabled
+2024-12-23 16:18:32 |INF| transcoder > Initialized
+2024-12-23 16:18:32 |INF| mediastream > Transcoder module initialized
+2024-12-23 16:18:32 |INF| mediastream > Module initialized
+2024-12-23 16:18:32 |INF| torrentstream > Initialized torrent client on port 43213
+2024-12-23 16:18:32 |TRC| torrentstream > Dropping all torrents
+2024-12-23 16:18:32 |DBG| torrentstream > Dropped all torrents
+2024-12-23 16:18:32 |INF| torrentstream > Creating streaming server on 0.0.0.0:43214
+2024-12-23 16:18:32 |INF| torrentstream > Module initialized
+2024-12-23 16:18:32 |INF| app > Serving embedded web interface
+2024-12-23 16:18:32 |INF| app > Web assets path: C:\Users\USER\AppData\Roaming\Seanime\assets
+2024-12-23 16:18:32 |INF| api > Success latency=3.2755ms method=GET url=/api/v1/status
+2024-12-23 16:18:33 |INF| api > Success latency=15.6866ms method=GET url=/api/v1/manga/collection
+2024-12-23 16:18:33 |INF| api > Success latency="512.6µs" method=GET url=/api/v1/auto-downloader/items
+2024-12-23 16:18:33 |INF| api > Success latency="399.8µs" method=GET url=/api/v1/anilist/collection
+2024-12-23 16:18:33 |INF| api > Success latency=2.4941ms method=GET url=/api/v1/library/missing-episodes
+2024-12-23 16:18:33 |DBG| ws > Client connected id=d959c30c-17a6-46ad-ae0e-a8ebea699eb2
+2024-12-23 16:18:33 |DBG| ws > Client connected id=672da538-3235-46e0-a87c-0607520874bd
+2024-12-23 16:18:33 |DBG| ws > Client connected id=af7e2596-aeaa-46a1-bfb5-26aa26209515
+2024-12-23 16:18:33 |INF| api > Success latency=536.2559ms method=GET url=/api/v1/latest-update
+2024-12-23 16:18:36 |INF| api > Success latency=3.3969918s method=GET url=/api/v1/library/collection
+2024-12-23 16:18:36 |INF| api > Success latency=0s method=GET url=/api/v1/continuity/history
+2024-12-23 16:18:38 |DBG| ws > Client disconnection id=af7e2596-aeaa-46a1-bfb5-26aa26209515
+2024-12-23 16:19:03 |DBG| ws > Client connected id=4d3c3908-aa67-45bd-bf9d-beefc36474d6
+2024-12-23 16:19:03 |INF| api > Success latency=5.5357ms method=GET url=/api/v1/status
+2024-12-23 16:19:03 |INF| api > Success latency=0s method=GET url=/api/v1/manga/collection
+2024-12-23 16:19:03 |INF| api > Success latency=0s method=GET url=/api/v1/latest-update
+2024-12-23 16:19:03 |INF| api > Success latency=1.0001ms method=GET url=/api/v1/library/collection
+2024-12-23 16:19:03 |INF| api > Success latency=1.0119ms method=GET url=/api/v1/anilist/collection
+2024-12-23 16:19:03 |INF| api > Success latency=11.1116ms method=GET url=/api/v1/library/missing-episodes
+2024-12-23 16:19:03 |INF| api > Success latency=15.8618ms method=GET url=/api/v1/auto-downloader/items
+2024-12-23 16:19:03 |INF| api > Success latency=0s method=GET url=/api/v1/continuity/history
+2024-12-23 16:20:20 |TRC| anilist platform > Fetching anime details
+2024-12-23 16:20:20 |DBG| anilist > Fetching anime details mediaId=172190
+2024-12-23 16:20:20 |INF| api > Success latency=4.7035ms method=GET url=/api/v1/library/anime-entry/172190
+2024-12-23 16:20:20 |INF| anilist > Successful Request rlr=89 rtt=735ms
+2024-12-23 16:20:20 |INF| api > Success latency=739.606ms method=GET url=/api/v1/anilist/media-details/172190
+2024-12-23 16:20:20 |INF| api > Success latency="811.9µs" method=GET url=/api/v1/extensions/list/onlinestream-provider
+2024-12-23 16:20:20 |TRC| anilist platform > Fetching anime
+2024-12-23 16:20:20 |DBG| anilist > Fetching anime mediaId=172190
+2024-12-23 16:20:20 |TRC| anilist platform > Fetching anime
+2024-12-23 16:20:20 |DBG| anilist > Fetching anime mediaId=172190
+2024-12-23 16:20:21 |INF| anilist > Successful Request rlr=88 rtt=381ms
+2024-12-23 16:20:21 |INF| api > Success latency=385.424ms method=POST url=/api/v1/onlinestream/episode-list
+2024-12-23 16:20:21 |INF| anilist > Successful Request rlr=87 rtt=379ms
+2024-12-23 16:20:21 |DBG| onlinestream > Getting episode container dubbed=false from=0 mediaId=172190 provider=gogoanime to=0
+2024-12-23 16:20:21 |DBG| onlinestream > Fetching gogoanime episode list key=172190$gogoanime$false
+2024-12-23 16:20:21 |DBG| gogoanime > Searching anime dubbed=false query="Kimi wa Meido-sama."
+2024-12-23 16:20:31 |DBG| gogoanime > Searching anime dubbed=false query="You are Ms. Servant"
+2024-12-23 16:20:39 |DBG| gogoanime > Fetched anime count=2
+2024-12-23 16:20:39 |DBG| gogoanime > Fetching episodes id=kimi-wa-meido-sama
+2024-12-23 16:20:41 |DBG| gogoanime > Fetched episodes count=8
+2024-12-23 16:20:41 |INF| api > Success latency=20.5101626s method=POST url=/api/v1/onlinestream/episode-list
+2024-12-23 16:20:41 |DBG| onlinestream > Getting episode container dubbed=false from=1 mediaId=172190 provider=gogoanime to=1
+2024-12-23 16:20:41 |DBG| onlinestream > Fetching gogoanime episode list key=172190$gogoanime$false
+2024-12-23 16:20:41 |DBG| onlinestream > Cache HIT for episode list key=172190$gogoanime$false
+2024-12-23 16:20:41 |DBG| onlinestream > Fetching episode '1' servers key=172190$gogoanime$1$false
+2024-12-23 16:20:41 |DBG| gogoanime > Fetching server sources episodeID=kimi-wa-meido-sama-episode-1 server=gogocdn
+2024-12-23 16:20:46 |DBG| gogoanime > Fetched server sources server=gogocdn videoSources=10
+2024-12-23 16:20:46 |DBG| gogoanime > Fetching server sources episodeID=kimi-wa-meido-sama-episode-1 server=vidstreaming
+2024-12-23 16:20:49 |DBG| gogoanime > Fetched server sources server=vidstreaming videoSources=10
+2024-12-23 16:20:49 |DBG| onlinestream > Found 2 servers for episode '1' key=172190$gogoanime$1$false
+2024-12-23 16:20:49 |INF| api > Success latency=7.4378682s method=POST url=/api/v1/onlinestream/episode-source
+2024-12-23 16:21:30 |DBG| ws > Client connected id=9145a335-366c-4423-a1d9-f247ed8d66ac
+2024-12-23 16:21:30 |INF| api > Success latency=7.0966ms method=GET url=/api/v1/status
+2024-12-23 16:21:31 |INF| api > Success latency=0s method=GET url=/api/v1/manga/collection
+2024-12-23 16:21:31 |INF| api > Success latency=2.0133ms method=GET url=/api/v1/anilist/collection
+2024-12-23 16:21:31 |INF| api > Success latency=1.5128ms method=GET url=/api/v1/library/collection
+2024-12-23 16:21:31 |INF| api > Success latency=0s method=GET url=/api/v1/latest-update
+2024-12-23 16:21:31 |INF| api > Success latency=0s method=GET url=/api/v1/auto-downloader/items
+2024-12-23 16:21:31 |INF| api > Success latency=0s method=GET url=/api/v1/library/missing-episodes
+2024-12-23 16:21:31 |INF| api > Success latency=0s method=GET url=/api/v1/continuity/history
+2024-12-23 16:21:34 |DBG| ws > Client disconnection id=9145a335-366c-4423-a1d9-f247ed8d66ac
+2024-12-23 16:22:05 |INF| api > Success latency=1.5125ms method=GET url=/api/v1/status
+2024-12-23 16:22:05 |DBG| ws > Client connected id=9145a335-366c-4423-a1d9-f247ed8d66ac
+2024-12-23 16:22:05 |INF| api > Success latency=0s method=GET url=/api/v1/manga/collection
+2024-12-23 16:22:05 |INF| api > Success latency="339.1µs" method=GET url=/api/v1/latest-update
+2024-12-23 16:22:05 |INF| api > Success latency=1.2939ms method=GET url=/api/v1/library/collection
+2024-12-23 16:22:05 |INF| api > Success latency=8.7553ms method=GET url=/api/v1/auto-downloader/items
+2024-12-23 16:22:05 |INF| api > Success latency=11.6115ms method=GET url=/api/v1/anilist/collection
+2024-12-23 16:22:05 |INF| api > Success latency=20.2976ms method=GET url=/api/v1/library/missing-episodes
+2024-12-23 16:22:05 |INF| api > Success latency=0s method=GET url=/api/v1/continuity/history
+2024-12-23 16:22:11 |DBG| ws > Client disconnection id=9145a335-366c-4423-a1d9-f247ed8d66ac

@@ -1,0 +1,57 @@
+2024-11-21 15:11:32 |INF| app > Seanime 2.3.0-Ao
+2024-11-21 15:11:32 |INF| app > OS: windows
+2024-11-21 15:11:32 |INF| app > Arch: amd64
+2024-11-21 15:11:32 |INF| app > Processor count: 4
+2024-11-21 15:11:32 |DBG| app > Initializing config
+2024-11-21 15:11:32 |INF| app > Data directory: C:\Users\USER\AppData\Roaming\Seanime
+2024-11-21 15:11:32 |INF| app > Working directory: C:\Users\USER\Downloads\seanime-2.3.0_Windows_x86_64
+2024-11-21 15:11:32 |INF| db > Database instantiated name=seanime.db
+2024-11-21 15:11:32 |INF| local platform > Database instantiated name=local.db
+2024-11-21 15:11:32 |INF| continuity > Initialized manager
+2024-11-21 15:11:32 |DBG| manga downloader > Reading download directory
+2024-11-21 15:11:32 |TRC| ws > Sending message type=refreshed-manga-download-data
+2024-11-21 15:11:32 |DBG| app > Refreshing modules
+2024-11-21 15:11:32 |WRN| app > Did not initialize media player module, no settings found
+2024-11-21 15:11:32 |WRN| app > Did not initialize torrent client module, no settings found
+2024-11-21 15:11:32 |INF| app > Refreshed modules
+2024-11-21 15:11:32 |DBG| manga > Initialized provider extension bank
+2024-11-21 15:11:32 |DBG| onlinestream > Initialized provider extension bank
+2024-11-21 15:11:32 |DBG| torrent repo > Initialized anime provider extension bank
+2024-11-21 15:11:32 |DBG| extensions > Loaded built-in manga provider extension id=comick
+2024-11-21 15:11:32 |DBG| extensions > Loaded built-in manga provider extension id=comick-multi
+2024-11-21 15:11:32 |DBG| torrent repo > Anime provider extension added
+2024-11-21 15:11:32 |DBG| extensions > Loaded built-in manga provider extension id=mangapill
+2024-11-21 15:11:32 |DBG| extensions > Loaded built-in manga provider extension id=mangasee
+2024-11-21 15:11:32 |DBG| torrent repo > Anime provider extension added
+2024-11-21 15:11:32 |DBG| extensions > Loaded built-in manga provider extension id=mangadex
+2024-11-21 15:11:32 |DBG| extensions > Loaded built-in manga provider extension id=manganato
+2024-11-21 15:11:32 |DBG| extensions > Loaded built-in onlinestream provider extension id=gogoanime
+2024-11-21 15:11:32 |DBG| torrent repo > Anime provider extension added
+2024-11-21 15:11:32 |DBG| extensions > Loaded built-in onlinestream provider extension id=zoro
+2024-11-21 15:11:32 |DBG| extensions > Loaded built-in anime torrent provider extension id=nyaa
+2024-11-21 15:11:32 |DBG| extensions > Loaded built-in anime torrent provider extension id=nyaa-sukebei
+2024-11-21 15:11:32 |DBG| torrent repo > Anime provider extension added
+2024-11-21 15:11:32 |DBG| extensions > Loaded built-in anime torrent provider extension id=animetosho
+2024-11-21 15:11:32 |DBG| extensions > Loaded built-in anime torrent provider extension id=seadex
+2024-11-21 15:11:32 |DBG| torrent repo > Anime provider extension added
+2024-11-21 15:11:32 |TRC| extensions > Loading external extensions
+2024-11-21 15:11:32 |TRC| extensions > Killing Goja VMs
+2024-11-21 15:11:32 |DBG| extensions > Killed Goja VMs
+2024-11-21 15:11:32 |TRC| extensions > Unloading external extensions
+2024-11-21 15:11:32 |DBG| extensions > Unloaded external extensions
+2024-11-21 15:11:32 |DBG| extensions > Loaded external extensions
+2024-11-21 15:11:32 |TRC| ws > Sending message type=extensions-reloaded
+2024-11-21 15:11:32 |DBG| app > Fetching Anilist data
+2024-11-21 15:11:32 |DBG| db > Media streaming settings saved
+2024-11-21 15:11:32 |INF| mediastream > Module initialized
+2024-11-21 15:11:32 |DBG| db > Torrent streaming settings saved
+2024-11-21 15:11:32 |INF| torrentstream > Module is disabled
+2024-11-21 15:11:32 |DBG| db > Debrid settings saved
+2024-11-21 15:11:32 |TRC| systray > App is ready
+2024-11-21 15:11:32 |INF| app > Serving embedded web interface
+2024-11-21 15:11:32 |INF| app > Web assets path: C:\Users\USER\AppData\Roaming\Seanime\assets
+2024-11-21 15:11:32 |INF| app > Manga downloads path: C:\Users\USER\AppData\Roaming\Seanime\manga
+2024-11-21 15:11:32 |INF| app > Offline assets path: C:\Users\USER\AppData\Roaming\Seanime\offline\assets
+2024-11-21 15:11:32 |INF| app > Server Address: 127.0.0.1:43211
+2024-11-21 15:11:32 |INF| app > Seanime started at http://127.0.0.1:43211
+2024-11-21 15:11:33 |DBG| animetosho > Loaded Sneedex Nyaa IDs count=1354
